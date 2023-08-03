@@ -20,6 +20,6 @@ def load_random_file(word):
     word2 = []
     for name in word:
         word2 = Bassic_word(name['word'], name['subwords'])
-        return word2
+    return word2
 
 
